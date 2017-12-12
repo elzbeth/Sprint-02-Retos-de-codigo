@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../assets/fonts/icomoon.eot');
+    src:url('../assets/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/icomoon.svg#icomoon') format('svg'),
+				url('../assets/fonts/icomoon.woff') format('woff'),
+				url('../assets/fonts/icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*=====GENERAL===========*/
+html, body {
+	background-color:orange;
+	margin:0;
+  overflow-x: hidden;
+	padding:0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+ }
+
+ .mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 min-scale=1 max-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+  <header>
+    <nav id="nav-global">
+      <ul >
+         <li>
+          <i class="nav-icon fa fa-home"><span class="nav-text"><a href="#">Home</a></span></i>
+         </li>
+         <li>
+          <i class="nav-icon fa fa-star"><span class="nav-text"><a href="#">Moments</a></span></i> 
+        </li>
+        <li>
+          <i class="nav-icon fa fa-bell"><span class="nav-text"><a href="#">Notifications</a></span></i>
+        </li>
+        <li>
+          <i class="nav-icon fa fa-envelope"><span class="nav-text"><a href="#">Messages</a></span></i>
+        </li>      
+        <li>
+          <i class="nav-icon fa fa-twitter fa-lg"></i>
+        </li>
+        <li>
+          <div class="search">
+            <form class="form" id="global-nav-search">
+              <input class="search-input" type="text" id="search-query" placeholder="Search Twitter" name="search-field">      
+            </form>
+        </li>
+        <li>
+              <button type="submit" id="search-icon">
+                 <i class="nav-icon fa fa-search fa-lg"></i>     
+              </button>
+              </li>
+              <button class="profile-btn" id="nav-profile"></button>
+              </li>
+              <li>
+              <button type="submit" class="tweet-modal" id="nav-tweet">
+                 <span>Tweet</span>
+              </button>
+        </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div id="user-cover" class="cover"> </div>
+
+<main class="container">
+<!--COLUMN 1 -->   
+<div id="column-left" class="column container">
+    <section id="presentation" class="column-section">
+     <article>
+     <button class="profile-btn2" id="presentation-profile">
+      </button>
+      <span id="user-account" class="mb-0">
+        <a href="#"><h4 class="black mb-0">Bill Shakespeare</h4></a>
+        <a><p class="mb-0 dark-gray">@2bOrNot2b</p></a>
+      </span>
+      </article>
+      <span>
+      <ul id="presentation-list" class="m-0">
+        <li>
+          <a href="#">
+          <h6 class="dark-gray m-0">Tweets</h6>
+          </a>
+          <a href="#"><h3 class="m-0 blue">123k</h3></a>
+        </li>
+        <li>
+          <a href="#">
+          <h6 class="dark-gray m-0">Following</h6>
+          </a>
+          <a href="#"><h3 class="m-0 blue">45</h3></a>
+        </li>
+        <li>
+          <a href="#">
+          <h6 class="dark-gray m-0">Followers</h6>
+        </a>
+        <a
+         href=""><h3 class="m-0 blue">978k</h3></a>
+        </li>
+      </ul>
+      </span>
+  </section>
+  <section id="world-trends" class="column-section">
+<article>
+    <span>
+      <h3>Worldwide trends</h3>
+      <a href="#"><h6 class="m-0 blue sub">Change</h6></a>
+    </span>
+    <div>
+        <span>
+          <a href="#"><h4 class="mb-0 blue">London</h4></a>
+          <a href="#">
+            <p class="mt-0">47.85K Tweets</p>
+            </a>
+        </span>
+        <span>
+          <a href="#"><h4 class="mb-0 blue">Wessex</h4></a>
+          <a href="#">
+            <p class="mt-0">38.27K Tweets</p>
+            </a>
+        </span>
+        <span>
+          <a href="#"><h4 class="mb-0 blue">Pirates</h4></a>
+          <a href="#">
+          <p class="mt-0">23.74K Tweets</p>
+          </a>
+        </span>
+        <span>
+          <a href="#"><h4 class="mb-0 blue">Spain</h4></a>
+          <a href="#">
+            <p class="mt-0">59.78K Tweets</p>
+            </a>
+        </span>
+        <span>
+          <a href="#"><h4 class="mb-0 blue">Luther</h4></a>
+          <a href="#">
+            <p class="mt-0">72.43K Tweets</p>
+            </a>
+        </span>
+        <span>
+          <a href="#"><h4 class="mb-0 blue">The Globe</h4></a>
+          <a href="#">
+            <p class="mt-0">27.59K Tweets</p>
+            </a>
+        </span>
+        <span>
+          <a href="#"><h4 class="mb-0 blue">Macbeth</h4></a>
+          <a href="#">
+            <p class="mt-0">92.48K Tweets</p>
+            </a>
+        </span>
+        <span>
+          <a href="#"><h4 class="mb-0 blue">France</h4></a>
+          <a href="#"><p class="mt-0">32.59K Tweets</p>
+          </a>
+        </span>
+        <span>
+          <a href="#"><h4 class="mb-0 blue">Tea</h4></a>
+          <a href="#">
+            <p class="mt-0">80.04K Tweets</p>
+            </a>
+        </span>
+        <span>
+          <a href="#"><h4 class="mb-0 blue">Her Majesty</h4></a>
+          <a href="#">
+            <p class="mt-0">50.90K Tweets</p>
+            </a>
+        </span>
+      </div>
+    </article>
+  </section>
+</div>
+
+<!--COLUMN 2 -->
+
+
+<div id="column-center" class="column container">  
+  <section id="new-tweet" class="column-section">
+    <article id="nt-profile">
+    <button class="profile-btn3" id="nt-id-profile"></button>
+      <form id="nt-form" action="">
+        <input id="nt-input" type="text" placeholder="What's happening?" data-nt="nt-text">
+        <span id="charCounter">140</span>
+        <button id="nt-submit" type="submit">Tweet</button> 
+      </form>
+    </article>
+  </section>
+
+
+  <section id="no-seen" class="column-section">  
+ <p><a id="no-seen-counter">See <span id="ns-counter">35</span> new tweets</a></p>
+  </section>
+
+  <section id="stream" class="column-section">
+    <article>
+     <button class="profile-btn3" data-tweeter="user-id" id="tweeter-profile" class="ctweeter-profile"></button>
+     <p id="author" class="cauthor black" data-name="creator-name">Bill Shakespeare</p>
+     <p id="aacount" class="caaccount dark-gray" data-name="creator-account">@2bOrNot2b</p>
+     <p id="tweet-date" class="ctweet-date" data-name="creation-date">03 12</p>
+     <p id="ttext" class="cttext mb-0" data-tweet="tweet-text">"Tomorrow, tomorrow, tomorrow..."</p>
+     <div>
+     <ul id="tweet-tools">
+	     <li>
+	     	<p>
+	     	<a>
+	     	<i id="reply" class="creply fa fa-comment-o dark-gray"></i>
+	     	</p>
+	     </a>
+	 	</li>
+	     <li>
+	     	<a>
+	     	<p>678 
+	     		<i id="retweet" class="cretweet fa fa-retweet dark-gray"></i>
+	     	</p>
+	     </a>
+	 	</li>
+	     <li>
+	     	<a>
+	     	<p>324 
+	     		<i id="favorites" class="cfavorites fa fa-heart-o dark-gray"></i>
+	     	</p>
+	     </a>
+	 	</li>
+	     <li>
+	     	<a>
+	     	<p>
+	     	<i id="dmessage" class="cdmessage fa fa-envelope-o dark-gray"></i>
+	     </p>
+	     </a>
+	 	</li>
+     </ul>
+ </div>
+  </article>
+  </section>
+</div>
+
+<!--COLUMN 3 -->
+<div id="column-right" class="column container">
+  <section id="to-follow" class="column-section"> 
+    <article>
+      <h3 class="mb-0">Who to follow</h3>
+          <a href="#"><h5 class="blue sub2">Refreh</h5></a>
+          <a href="#"><h5 class="blue  sub2">View all</h5></a>
+    </article>
+      <ul id="suggestion-list">
+        <li class="suggestion-item">
+          <article>
+            <button class="suggest-btn1">
+            </button>
+            <span>
+              <p>Followed by</p>
+              <p><a href="#" class="blue mt-0">@AnneH</a></p>
+            </span>
+            <span>
+              <h4>
+                <a href="#" class="black  mt-0">Susanna S.</a>
+              </h4>
+            </span>
+            <span>
+              <h4>
+                <a href="#" class="blue mt-0">@theDaughter</a>
+              </h4>
+            </span>
+            <button type="submit" class="follow">Follow</button>
+          </article>
+        </li>
+        <li class="suggestion-item">
+          <article>
+           <button class="suggest-btn2">
+            </button>
+            <span>
+              <p>Followed by</p>
+              <p><a href="#" class="blue mt-0">@KitMarlowe</a></p>
+            </span>
+            <span>
+              <h4>
+                <a href="#" class="black  mt-0">Virgilio</a>
+              </h4>
+            </span>
+            <span>
+              <h4>
+                <a href="#" class="blue mt-0">@theClassic</a>
+              </h4>
+            </span>
+            <button type="submit" class="follow">Follow</button>
+          </article>
+        </li>
+        <li class="suggestion-item">
+          <article>
+            <button class="suggest-btn3">
+            </button>
+            <span>
+              <p>Followed by</p>
+              <p><a href="#" class="blue">@LizzyTheFirst</a></p></a>
+            </span>
+            <span>
+              <h4>
+                <a href="#" class="black mt-0">Edward de Vere</a>
+              </h4>
+            </span>
+            <span>
+                <h4><a href="#" class="blue mt-0">@EarlOfOxford</a></h4>
+            </span>
+            <button type="submit" class="follow">Follow</button>
+          </article>
+        </li>
+      </ul>
+    </span>    
+  </section>
+  <section id="find-people" class="column-section2">
+    <article>
+      <a href="#">
+        <p class="sub blue">Find people you know</p>
+      </a>
+    </article>
+  </section>
+  <div>
+  <sectiion id="help" class="column-section">
+    <ul id="support-list">
+   
+    <li> <p> &copy; 2017 Twitter</p>
+      <p><a href="#">About</a></p>
+      </li>
+    <li>
+      <p><a href="#">Help Center</a></p>
+      </li>
+    <li>
+      <p><a href="#">Terms</a></p>
+      </li>
+    <li>
+      <p><a href="#">Privacy policy</a></p>
+      </li>
+    <li>
+      <p><a href="#">Cookies</a></p>
+      </li>
+    <li>
+      <p><a href="#">Ads info</a></p>
+      </li>
+    <li>
+      <p><a href="#">Brand</a></p>
+    </li>
+    <li>
+      <p><a href="#">Blog</a></p>
+    </li>
+    <li>
+      <p><a href="#">Status</a></p>
+    </li>
+    <li>
+      <p><a href="#">Apps</a></p>
+    </li>
+    <li>
+      <p><a href="#">Jobs</a></p>
+    </li>
+    <li>
+      <p><a href="#">Marketing</a></p>
+    </li>
+    <li>
+      <p><a href="#">Businesses</a></p>
+    </li>
+    <li>
+      <p><a href="#">Developers</a></p>
+    </li>
+    </ul>
+  </section id="advertising" class="column-section2">
+  <article>
+      <a href="#">
+        <p class="sub blue">Advertise with Twitter</p>
+      </a>
+    </article>
+  </div>
+ </div>
+</main>
+
+
+
+
+
+
+
+  <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

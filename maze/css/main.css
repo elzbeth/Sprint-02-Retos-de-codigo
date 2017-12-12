@@ -1,0 +1,32 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../assets/fonts/icomoon.eot');
+    src:url('../assets/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/icomoon.svg#icomoon') format('svg'),
+				url('../assets/fonts/icomoon.woff') format('woff'),
+				url('../assets/fonts/icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*=====GENERAL===========*/
+html, body {
+	background-color:purple;
+	margin:0;
+  overflow-x: hidden;
+	padding:0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+
+#canvas {
+  width: 600%;
+  height: 600px:;
+  background-color:orange;
+}
